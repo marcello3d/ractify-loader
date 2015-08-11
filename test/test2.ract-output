@@ -1,0 +1,16 @@
+exports.template = { v:3,
+  t:[ { p:[ 1,
+        1,
+        0 ],
+      t:7,
+      e:"div",
+      a:{ "class":"kickass" },
+      f:[ "Testing ",
+        { t:2,
+          r:"styles",
+          p:[ 1,
+            30,
+            29 ] },
+        " only." ] } ] }
+
+exports.css = "div.kickass {\n    /* blue is pretty kickass */\n    color: blue;\n}"

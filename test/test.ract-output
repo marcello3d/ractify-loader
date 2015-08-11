@@ -1,0 +1,8 @@
+exports.template = { v:3,
+  t:[ "Hello ",
+    { t:2,
+      r:"world",
+      p:[ 1,
+        7,
+        6 ] },
+    "!" ] }
