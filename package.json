@@ -1,6 +1,6 @@
 {
   "name": "ractify-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ractify-compatible webpack loader for precompiled Ractive.js components",
   "main": "index.js",
   "scripts": {
