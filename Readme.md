@@ -1,4 +1,4 @@
-Ractive Component Loader (for webpack)
+Ractify Loader (for webpack)
 =================
 
 [![npm version](https://badge.fury.io/js/ractive-component-loader.svg)](http://badge.fury.io/js/ractive-component-loader) [![Build Status](https://travis-ci.org/marcello3d/ractive-component-loader.svg?branch=master)](https://travis-ci.org/marcello3d/ractive-component-loader)
@@ -10,27 +10,27 @@ Based on (and compatible with) [ractify](https://github.com/marcello3d/node-ract
 Installation
 ------------
 
-Ractive Component Loader does not install Ractive on its own, you must do so yourself (this allows you to update Ractive 
-without an update to ractify).
+This loader does not depend on Ractive, you must require it yourself (this allows you to update Ractive
+without an update to ractify-loader).
 
 Example:
 
 ```
-npm install --save ractive-component-loader
-npm install --save ractive@0.7.0
+npm install --save ractify-loader
+npm install --save ractive@0.7
 ```
 
 Usage / Examples
 ----------------
 
-Browserify API usage:
+Webpack config example usage:
 
 ```js
 /* webpack.config.js */
 module.exports = {
   module: {
     loaders: [
-      { test: /\.ract$/, loader: 'ractive-component' }
+      { test: /\.ract$/, loader: 'ractify' }
     ]
   },
   ...

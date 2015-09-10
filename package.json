@@ -1,14 +1,14 @@
 {
-  "name": "ractive-component-loader",
+  "name": "ractify-loader",
   "version": "1.0.0",
-  "description": "webpack + precompiled Ractive.js components",
+  "description": "ractify-compatible webpack loader for precompiled Ractive.js components",
   "main": "index.js",
   "scripts": {
     "test": "node node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/marcello3d/node-ractify.git"
+    "url": "git://github.com/marcello3d/ractify-loader.git"
   },
   "dependencies": {
     "rcu": "0.4.2",
@@ -23,8 +23,9 @@
     "handlebars",
     "ractive",
     "ractive.js",
-    "browserify",
-    "browserify-transform"
+    "ractify",
+    "webpack",
+    "webpack-loader"
   ],
   "author": "Marcello Bastéa-Forte <marcello@cellosoft.com>",
   "license": "zlib",
